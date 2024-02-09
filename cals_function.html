@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+
+        <script>
+            let a = parseInt(prompt("enter value A ="))
+            console.log("a =",a);
+            let b = parseInt(prompt("enter value B ="))
+            console.log("b =",b);
+
+            let choice = prompt("enter your choice(+,-,*, or /) =")
+
+            function calc() {
+
+                switch (choice) {
+                    case "+":
+                        console.log("addition =", a + b);
+                        break;
+
+                    case "-":
+                        console.log("Subtraction = ", a - b);
+                        break;
+
+                    case "*":
+                        console.log("Multiplication = ", a * b);
+                        break;
+
+                    case "/":
+                        console.log("Division = ", a / b);
+                        break;
+                    default:
+                        console.log("please enter valid choice");
+                }
+            }
+
+            calc()
+        </script>
+    </body>
+
+</html>

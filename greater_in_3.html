@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let a = parseInt(prompt("enter value a ="))
+        console.log("a = ", a);
+
+        let b = parseInt(prompt("enter value b ="))
+        console.log("b = ", b);
+
+        let c = parseInt(prompt("enter vslue c ="))
+        console.log("c = ", c);
+
+        function max(a,b,c) {
+
+            if (a > b) {
+                if (a > c) {
+                    console.log("a is maximum");
+                }
+                else {
+                    console.log("c is maximum");
+                }
+            }
+            else {
+                if (b > c) {
+                    console.log("b is maximum");
+                }
+                else {
+                    console.log("c is maximum");
+                }
+            }
+        }
+
+        max(a,b,c)
+
+    </script>
+</body>
+</html>

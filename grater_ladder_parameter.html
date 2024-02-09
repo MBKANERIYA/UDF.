@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+
+        <script>
+            let a = parseInt(prompt("Enter Value a ="))
+            console.log("a =", a);
+            let b = parseInt(prompt("Enter Value b ="))
+            console.log("b =", b);
+            let c = parseInt(prompt("Enter Value c ="))
+            console.log("c =", c);
+            let d = parseInt(prompt("Enter Value d ="))
+            console.log("d =", d);
+
+            function max(a, b, c, d) {
+                if (a > b && a > c && a > d) {
+                    console.log("a is grater");
+                }
+                else if (b > c && b > d) {
+                    console.log("b is grater");
+                }
+                else if ( c > d) {
+                    console.log("c is grater");
+                }
+                else if (d > c) {
+                    console.log("d is grater");
+                }
+                else {
+                    console.log("not enter same max numbers");
+                }
+            }
+            max(a,b,c,d);
+        </script>
+    </body>
+
+</html>
